@@ -24,6 +24,8 @@ class Visuals;
 class Misc;
 struct Features;
 
+//123
+
 class Config {
 public:
     Config(Features& features, const OtherInterfaces& interfaces, const Memory& memory) noexcept;
