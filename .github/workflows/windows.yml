@@ -30,7 +30,7 @@ jobs:
       with:
         name: Osiris-${{ matrix.toolset }}-${{ matrix.configuration }}
         # MSBuild по умолчанию складывает x64 билды в папку x64/ в корне решения
-        path: x86/${{ matrix.configuration }}/Osiris.dll
+        path: ${{ matrix.configuration }}/Osiris.dll
 
   cmake:
     runs-on: ${{ matrix.os }}
